@@ -3,6 +3,7 @@ import { useInterval, useDocumentVisibility } from 'ahooks';
 
 import styles from './index.less';
 import Col from './components/Col';
+import { title } from '../../conf';
 
 const IndexPage: React.FC = () => {
   const [colList, setColList] = useState([
@@ -473,7 +474,7 @@ const IndexPage: React.FC = () => {
             color: 'inherit',
             textDecoration: 'none',
           }}
-        >徐师傅和小尹</a>
+        >{ title }</a>
         &nbsp;
         <a
           href='https://beian.miit.gov.cn/'

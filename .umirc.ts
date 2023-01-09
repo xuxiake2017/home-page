@@ -1,4 +1,5 @@
 import { defineConfig } from 'umi';
+import { title } from './conf';
 
 export default defineConfig({
   nodeModulesTransform: {
@@ -9,5 +10,5 @@ export default defineConfig({
   ],
   fastRefresh: {},
   hash: true,
-  title: '徐师傅和小尹',
+  title,
 });

@@ -1,0 +1,1 @@
+export const title = '我的照片墙'
